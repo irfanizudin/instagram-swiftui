@@ -13,6 +13,8 @@
 		2E25E53A28F971D90050903C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E25E53928F971D90050903C /* Preview Assets.xcassets */; };
 		2E25E54328F974DE0050903C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25E54228F974DE0050903C /* HeaderView.swift */; };
 		2E25E54A28F978100050903C /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25E54928F978100050903C /* StoryView.swift */; };
+		2E25E54C28F9913F0050903C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25E54B28F9913F0050903C /* HomeView.swift */; };
+		2E25E54E28F9918A0050903C /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25E54D28F9918A0050903C /* StoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		2E25E53928F971D90050903C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E25E54228F974DE0050903C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2E25E54928F978100050903C /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		2E25E54B28F9913F0050903C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2E25E54D28F9918A0050903C /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 		2E25E54428F975980050903C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2E25E54B28F9913F0050903C /* HomeView.swift */,
 				2E25E54228F974DE0050903C /* HeaderView.swift */,
 				2E25E54928F978100050903C /* StoryView.swift */,
+				2E25E54D28F9918A0050903C /* StoriesView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 			files = (
 				2E25E53528F971D80050903C /* ContentView.swift in Sources */,
 				2E25E54328F974DE0050903C /* HeaderView.swift in Sources */,
+				2E25E54E28F9918A0050903C /* StoriesView.swift in Sources */,
 				2E25E54A28F978100050903C /* StoryView.swift in Sources */,
+				2E25E54C28F9913F0050903C /* HomeView.swift in Sources */,
 				2E25E53328F971D80050903C /* instagram_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
