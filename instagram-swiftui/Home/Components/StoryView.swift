@@ -29,6 +29,7 @@ struct StoryView: View {
                 .truncationMode(.tail)
                 
         }
+        .frame(width: 90)
     }
 }
 
