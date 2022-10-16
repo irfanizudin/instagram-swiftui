@@ -20,7 +20,6 @@ struct HomeView: View {
                 }
                 
             }
-            Spacer()
         }
     }
 }
