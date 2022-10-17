@@ -39,7 +39,7 @@ struct PostView: View {
             Image(content)
                 .resizable()
                 .scaledToFit()
-                .frame(width: .infinity)
+                .frame(maxWidth: .infinity)
             
             //action
             HStack {
