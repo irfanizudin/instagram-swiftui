@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var vmSearchView = SearchViewModel()
+    
     var body: some View {
         TabView {
             HomeView()
                 .tabItem {
                     Image(systemName: "house")
                 }
-            Image("search")
+            SearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
