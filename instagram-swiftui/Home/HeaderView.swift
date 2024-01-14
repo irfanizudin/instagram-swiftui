@@ -13,7 +13,6 @@ struct HeaderView: View {
             Image("logo")
             Spacer()
             HStack(spacing: 20) {
-                Image("add")
                 Image("heart")
                 Image("messenger")
             }

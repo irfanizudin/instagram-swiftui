@@ -20,15 +20,15 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
+            Image("plus")
+                .tabItem {
+                    Image(systemName: "plus.app")
+                }
             Image("reels")
                 .tabItem {
                     Image(systemName: "play.square")
                 }
-            Image("shop")
-                .tabItem {
-                    Image(systemName: "cart")
-                }
-            Image(systemName: "person.circle.fill")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person.circle.fill")
                 }
